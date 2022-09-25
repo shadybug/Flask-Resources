@@ -3,11 +3,11 @@
 3. If you haven't already: open the Extensions tab on your left sidebar. Install the Python and HTML CSS Support extensions.
 4. Open up a terminal in VS Code (Terminal->New Terminal)
 5. Set up your virtual environment. If you've done this correctly, there should be a (.venv) at the beginning of your lines in the terminal. 
-# macOS
+### macOS
 > python3 -m venv .venv
 > source .venv/bin/activate
 
-# Windows
+### Windows
 > py -3 -m venv .venv
 > .venv\scripts\activate
 6. Open the command palette (Ctrl+Shift+P) and select Python: Select Interpreter. Click on the one that says "('.venv': venv)"

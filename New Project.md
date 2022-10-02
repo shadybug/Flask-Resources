@@ -5,10 +5,12 @@
 5. Set up your virtual environment. If you've done this correctly, there should be a (.venv) at the beginning of your lines in the terminal. 
 ### macOS
 > python3 -m venv .venv
+> 
 > source .venv/bin/activate
 
 ### Windows
 > py -3 -m venv .venv
+> 
 > .venv\scripts\activate
 6. Open the command palette (Ctrl+Shift+P) and select Python: Select Interpreter. Click on the one that says "('.venv': venv)"
 7. Load pip (a Python program manager) into your virtual environment.

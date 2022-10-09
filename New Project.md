@@ -17,4 +17,6 @@
 > python -m pip install --upgrade pip
 8. Install Flask into the virtual environment.
 > python -m pip install flask
-9. Make a file called "app.py", and folders called "static" and "templates" as needed. Make sure the names are exact, or Flask won't recognize them!
+9. If you plan to use a database, install the Python-MySQL connector so that we can communicate with it.
+> python -m pip install mysql-connector-python 
+10. Make a file called "app.py", and folders called "static" and "templates" as needed. Make sure the names are exact, or Flask won't recognize them!
